@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73BBBAD525B3233200E83C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBBAD425B3233200E83C6E /* AppDelegate.swift */; };
+		73BBBAD725B3233200E83C6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBBAD625B3233200E83C6E /* SceneDelegate.swift */; };
+		73BBBAD925B3233200E83C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBBAD825B3233200E83C6E /* ViewController.swift */; };
+		73BBBADC25B3233200E83C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BBBADA25B3233200E83C6E /* Main.storyboard */; };
+		73BBBADE25B3233200E83C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BBBADD25B3233200E83C6E /* Assets.xcassets */; };
+		73BBBAE125B3233200E83C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BBBADF25B3233200E83C6E /* LaunchScreen.storyboard */; };
+		73BBBAEC25B3233300E83C6E /* PlanetraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBBAEB25B3233300E83C6E /* PlanetraTests.swift */; };
+		73BBBAF725B3233300E83C6E /* PlanetraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBBAF625B3233300E83C6E /* PlanetraUITests.swift */; };
+		73BBBB0B25B3270100E83C6E /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBBB0A25B3270100E83C6E /* Planets.swift */; };
+		73D94B1F25B45E72003D1B16 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D94B1E25B45E72003D1B16 /* resultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73BBBAE825B3233300E83C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73BBBAC925B3233200E83C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BBBAD025B3233200E83C6E;
+			remoteInfo = Planetra;
+		};
+		73BBBAF325B3233300E83C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73BBBAC925B3233200E83C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BBBAD025B3233200E83C6E;
+			remoteInfo = Planetra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73BBBAD125B3233200E83C6E /* Planetra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planetra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BBBAD425B3233200E83C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73BBBAD625B3233200E83C6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73BBBAD825B3233200E83C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73BBBADB25B3233200E83C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73BBBADD25B3233200E83C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73BBBAE025B3233200E83C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73BBBAE225B3233200E83C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BBBAE725B3233300E83C6E /* PlanetraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BBBAEB25B3233300E83C6E /* PlanetraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetraTests.swift; sourceTree = "<group>"; };
+		73BBBAED25B3233300E83C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BBBAF225B3233300E83C6E /* PlanetraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BBBAF625B3233300E83C6E /* PlanetraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetraUITests.swift; sourceTree = "<group>"; };
+		73BBBAF825B3233300E83C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BBBB0A25B3270100E83C6E /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		73D94B1E25B45E72003D1B16 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73BBBACE25B3233200E83C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBBAE425B3233300E83C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBBAEF25B3233300E83C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73BBBAC825B3233200E83C6E = {
+			isa = PBXGroup;
+			children = (
+				73BBBAD325B3233200E83C6E /* Planetra */,
+				73BBBAEA25B3233300E83C6E /* PlanetraTests */,
+				73BBBAF525B3233300E83C6E /* PlanetraUITests */,
+				73BBBAD225B3233200E83C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73BBBAD225B3233200E83C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73BBBAD125B3233200E83C6E /* Planetra.app */,
+				73BBBAE725B3233300E83C6E /* PlanetraTests.xctest */,
+				73BBBAF225B3233300E83C6E /* PlanetraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73BBBAD325B3233200E83C6E /* Planetra */ = {
+			isa = PBXGroup;
+			children = (
+				73BBBAD425B3233200E83C6E /* AppDelegate.swift */,
+				73BBBAD625B3233200E83C6E /* SceneDelegate.swift */,
+				73BBBB0A25B3270100E83C6E /* Planets.swift */,
+				73BBBAD825B3233200E83C6E /* ViewController.swift */,
+				73D94B1E25B45E72003D1B16 /* resultViewController.swift */,
+				73BBBADA25B3233200E83C6E /* Main.storyboard */,
+				73BBBADD25B3233200E83C6E /* Assets.xcassets */,
+				73BBBADF25B3233200E83C6E /* LaunchScreen.storyboard */,
+				73BBBAE225B3233200E83C6E /* Info.plist */,
+			);
+			path = Planetra;
+			sourceTree = "<group>";
+		};
+		73BBBAEA25B3233300E83C6E /* PlanetraTests */ = {
+			isa = PBXGroup;
+			children = (
+				73BBBAEB25B3233300E83C6E /* PlanetraTests.swift */,
+				73BBBAED25B3233300E83C6E /* Info.plist */,
+			);
+			path = PlanetraTests;
+			sourceTree = "<group>";
+		};
+		73BBBAF525B3233300E83C6E /* PlanetraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73BBBAF625B3233300E83C6E /* PlanetraUITests.swift */,
+				73BBBAF825B3233300E83C6E /* Info.plist */,
+			);
+			path = PlanetraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BBBAD025B3233200E83C6E /* Planetra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BBBAFB25B3233300E83C6E /* Build configuration list for PBXNativeTarget "Planetra" */;
+			buildPhases = (
+				73BBBACD25B3233200E83C6E /* Sources */,
+				73BBBACE25B3233200E83C6E /* Frameworks */,
+				73BBBACF25B3233200E83C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planetra;
+			productName = Planetra;
+			productReference = 73BBBAD125B3233200E83C6E /* Planetra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73BBBAE625B3233300E83C6E /* PlanetraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BBBAFE25B3233300E83C6E /* Build configuration list for PBXNativeTarget "PlanetraTests" */;
+			buildPhases = (
+				73BBBAE325B3233300E83C6E /* Sources */,
+				73BBBAE425B3233300E83C6E /* Frameworks */,
+				73BBBAE525B3233300E83C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BBBAE925B3233300E83C6E /* PBXTargetDependency */,
+			);
+			name = PlanetraTests;
+			productName = PlanetraTests;
+			productReference = 73BBBAE725B3233300E83C6E /* PlanetraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73BBBAF125B3233300E83C6E /* PlanetraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BBBB0125B3233300E83C6E /* Build configuration list for PBXNativeTarget "PlanetraUITests" */;
+			buildPhases = (
+				73BBBAEE25B3233300E83C6E /* Sources */,
+				73BBBAEF25B3233300E83C6E /* Frameworks */,
+				73BBBAF025B3233300E83C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BBBAF425B3233300E83C6E /* PBXTargetDependency */,
+			);
+			name = PlanetraUITests;
+			productName = PlanetraUITests;
+			productReference = 73BBBAF225B3233300E83C6E /* PlanetraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73BBBAC925B3233200E83C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					73BBBAD025B3233200E83C6E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					73BBBAE625B3233300E83C6E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 73BBBAD025B3233200E83C6E;
+					};
+					73BBBAF125B3233300E83C6E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 73BBBAD025B3233200E83C6E;
+					};
+				};
+			};
+			buildConfigurationList = 73BBBACC25B3233200E83C6E /* Build configuration list for PBXProject "Planetra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73BBBAC825B3233200E83C6E;
+			productRefGroup = 73BBBAD225B3233200E83C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73BBBAD025B3233200E83C6E /* Planetra */,
+				73BBBAE625B3233300E83C6E /* PlanetraTests */,
+				73BBBAF125B3233300E83C6E /* PlanetraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73BBBACF25B3233200E83C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BBBAE125B3233200E83C6E /* LaunchScreen.storyboard in Resources */,
+				73BBBADE25B3233200E83C6E /* Assets.xcassets in Resources */,
+				73BBBADC25B3233200E83C6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBBAE525B3233300E83C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBBAF025B3233300E83C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73BBBACD25B3233200E83C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D94B1F25B45E72003D1B16 /* resultViewController.swift in Sources */,
+				73BBBAD925B3233200E83C6E /* ViewController.swift in Sources */,
+				73BBBAD525B3233200E83C6E /* AppDelegate.swift in Sources */,
+				73BBBAD725B3233200E83C6E /* SceneDelegate.swift in Sources */,
+				73BBBB0B25B3270100E83C6E /* Planets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBBAE325B3233300E83C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BBBAEC25B3233300E83C6E /* PlanetraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBBAEE25B3233300E83C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BBBAF725B3233300E83C6E /* PlanetraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73BBBAE925B3233300E83C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BBBAD025B3233200E83C6E /* Planetra */;
+			targetProxy = 73BBBAE825B3233300E83C6E /* PBXContainerItemProxy */;
+		};
+		73BBBAF425B3233300E83C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BBBAD025B3233200E83C6E /* Planetra */;
+			targetProxy = 73BBBAF325B3233300E83C6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73BBBADA25B3233200E83C6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BBBADB25B3233200E83C6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73BBBADF25B3233200E83C6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BBBAE025B3233200E83C6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73BBBAF925B3233300E83C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73BBBAFA25B3233300E83C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73BBBAFC25B3233300E83C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Planetra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhsimransingh.Planetra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73BBBAFD25B3233300E83C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Planetra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhsimransingh.Planetra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73BBBAFF25B3233300E83C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlanetraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhsimransingh.PlanetraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetra.app/Planetra";
+			};
+			name = Debug;
+		};
+		73BBBB0025B3233300E83C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlanetraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhsimransingh.PlanetraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetra.app/Planetra";
+			};
+			name = Release;
+		};
+		73BBBB0225B3233300E83C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlanetraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhsimransingh.PlanetraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planetra;
+			};
+			name = Debug;
+		};
+		73BBBB0325B3233300E83C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlanetraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhsimransingh.PlanetraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planetra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73BBBACC25B3233200E83C6E /* Build configuration list for PBXProject "Planetra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BBBAF925B3233300E83C6E /* Debug */,
+				73BBBAFA25B3233300E83C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BBBAFB25B3233300E83C6E /* Build configuration list for PBXNativeTarget "Planetra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BBBAFC25B3233300E83C6E /* Debug */,
+				73BBBAFD25B3233300E83C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BBBAFE25B3233300E83C6E /* Build configuration list for PBXNativeTarget "PlanetraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BBBAFF25B3233300E83C6E /* Debug */,
+				73BBBB0025B3233300E83C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BBBB0125B3233300E83C6E /* Build configuration list for PBXNativeTarget "PlanetraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BBBB0225B3233300E83C6E /* Debug */,
+				73BBBB0325B3233300E83C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73BBBAC925B3233200E83C6E /* Project object */;
+}
